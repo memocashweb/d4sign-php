@@ -23,6 +23,7 @@ class Client extends ClientBase
     public $groups;
     public $tags;
     public $certificate;
+    public $watcher;
     
     public function __construct()
     {
